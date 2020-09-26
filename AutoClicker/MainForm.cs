@@ -10,7 +10,7 @@ namespace AutoClicker
         private AutoClicker clicker;
         private Keys hotkey;
         private Win32.fsModifiers hotkeyNodifiers;
-
+        
         private Thread countdownThread;
 
         public MainForm()
@@ -241,6 +241,13 @@ namespace AutoClicker
 
             clicker.NextClick += HandleNextClick;
             clicker.Finished += HandleFinished;
+
+            /*
+                Content.Text = "程序集版本：" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString() +"\n";
+                Content.Text += "文件版本：" + Application.ProductVersion.ToString() +"\n";
+                Content.Text += "部署版本：" + System.Deployment.Application.ApplicationDeployment.CurrentDeployment.CurrentVersion.ToString();
+             */
+            this.Text = this.Text + " V" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
         }
 
         private void HandleNextClick(object sender, AutoClicker.NextClickEventArgs e)
@@ -505,6 +512,11 @@ namespace AutoClicker
             //btnToggle.Text = "Stop";
         }
 
+        /// 
+        /// 监视Windows消息
+        /// 重载WndProc方法，用于实现热键响应
+        /// 
+        /// 
         protected override void WndProc(ref Message m)
         {
             base.WndProc(ref m);
@@ -521,6 +533,7 @@ namespace AutoClicker
                 Keys key = (Keys)(((int)m.LParam >> 16) & 0xFFFF);
                 if (key == (hotkey & Keys.KeyCode) && modifiers == hotkeyNodifiers)
                 {
+                    Console.WriteLine("User pressed Hotkey");
                     btnToggle_Click(null, null);
                 }
             }
@@ -574,8 +587,9 @@ namespace AutoClicker
         /// <param name="e"></param>
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            SaveSettings();
             if (MessageBox.Show("是否确认退出程序？", "退出", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK) {
+                QuitForm();
+
                 // 关闭所有的线程
                 this.Dispose();
                 this.Close();
@@ -599,12 +613,17 @@ namespace AutoClicker
             form.Show();
         }
 
-        /// <summary>
-        /// 添加双击托盘图标事件（双击显示窗口）
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e) {
+        private void MinimizeForm() {
+            //判断是否选择的是最小化按钮
+            if (WindowState == FormWindowState.Minimized) {
+                //隐藏任务栏区图标
+                this.ShowInTaskbar = false;
+                //图标显示在托盘区
+                notifyIcon1.Visible = true;
+            }
+        }
+
+        private void NormalForm() {
             if (WindowState == FormWindowState.Minimized) {
                 //还原窗体显示    
                 WindowState = FormWindowState.Normal;
@@ -617,29 +636,67 @@ namespace AutoClicker
             }
         }
 
+        private void QuitForm() {
+            SaveSettings();
+            UnsetHotkey();
+        }
+
+        private void HideForm() {
+            //MinimizeForm();
+            WindowState = FormWindowState.Normal;
+            this.Hide();
+            //隐藏任务栏区图标
+            this.ShowInTaskbar = false;
+            //图标显示在托盘区
+            notifyIcon1.Visible = true;
+
+            UnsetHotkey();
+            SetHotkey();
+        }
+
+        private void ShowForm() {
+            //NormalForm();
+
+            this.Show();
+            //还原窗体显示    
+            WindowState = FormWindowState.Normal;
+            //激活窗体并给予它焦点
+            this.Activate();
+            //任务栏区显示图标
+            this.ShowInTaskbar = true;
+            //托盘区图标隐藏
+            notifyIcon1.Visible = false;
+
+            UnsetHotkey();
+            SetHotkey();
+        }
+
+        /// <summary>
+        /// 添加双击托盘图标事件（双击显示窗口）
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e) {
+            ShowForm();
+        }
+
         /// <summary>
         /// 判断是否最小化,然后显示托盘
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void MainForm_SizeChanged(object sender, EventArgs e) {
-            //判断是否选择的是最小化按钮
-            if (WindowState == FormWindowState.Minimized) {
-                //隐藏任务栏区图标
-                this.ShowInTaskbar = false;
-                //图标显示在托盘区
-                notifyIcon1.Visible = true;
-            }
+            HideForm();
         }
 
         private void quitToolStripMenuItem_Click(object sender, EventArgs e) {
-            SaveSettings();
+            QuitForm();
             this.Dispose();
             this.Close();
         }
 
         private void showToolStripMenuItem_Click(object sender, EventArgs e) {
-            WindowState = FormWindowState.Normal;
+            ShowForm();
         }
 
         public void NotifyText(string title, string content) {

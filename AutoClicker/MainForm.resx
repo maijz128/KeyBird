@@ -121,9 +121,6 @@
   <data name="numDelayFixed.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="numRandomY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
@@ -148,8 +145,8 @@
   <data name="&gt;&gt;rdbClickDoubleRight.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>grpLocation</value>
+  <data name="showToolStripMenuItem.Text" xml:space="preserve">
+    <value>Show</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="rdbClickDoubleRight.TabIndex" type="System.Int32, mscorlib">
@@ -158,9 +155,6 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="numDelayRangeMin.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 25</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1032, 415</value>
   </data>
   <data name="&gt;&gt;rdbLocationFixed.ZOrder" xml:space="preserve">
     <value>14</value>
@@ -195,9 +189,6 @@
   <data name="&gt;&gt;numRandomWidth.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="contextMenuStrip_NotifyIcon.Size" type="System.Drawing.Size, System.Drawing">
     <value>119, 52</value>
   </data>
@@ -210,8 +201,8 @@
   <data name="btnSelect.Location" type="System.Drawing.Point, System.Drawing">
     <value>136, 132</value>
   </data>
-  <data name="rdbClickSingleRight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 19</value>
+  <data name="rdbClickSingleMiddle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;rdbClickSingleLeft.Parent" xml:space="preserve">
     <value>grpClickType</value>
@@ -222,8 +213,8 @@
   <data name="&gt;&gt;numFixedY.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;grpMain.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 390</value>
   </data>
   <data name="label11.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -234,8 +225,8 @@
   <data name="&gt;&gt;txtHotkey.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="rdbClickDoubleMiddle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 19</value>
+  <data name="tslStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>385, 20</value>
   </data>
   <data name="&gt;&gt;btnSelect.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -249,14 +240,11 @@
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>263, 108</value>
   </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 15</value>
+  <data name="numDelayRangeMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 54</value>
   </data>
   <data name="rdbDelayRange.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 19</value>
-  </data>
-  <data name="&gt;&gt;contextMenuStrip_NotifyIcon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;numFixedY.Name" xml:space="preserve">
     <value>numFixedY</value>
@@ -279,11 +267,8 @@
   <data name="btnHotkeyRemove.Location" type="System.Drawing.Point, System.Drawing">
     <value>305, 19</value>
   </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>Hotkey</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 15</value>
+  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1032, 25</value>
   </data>
   <data name="&gt;&gt;label10.Name" xml:space="preserve">
     <value>label10</value>
@@ -306,8 +291,11 @@
   <data name="numRandomX.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 25</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>KeyBird</value>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 15</value>
+  </data>
+  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="&gt;&gt;rdbClickDoubleMiddle.Parent" xml:space="preserve">
     <value>grpClickType</value>
@@ -315,11 +303,14 @@
   <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;rdbClickDoubleLeft.Parent" xml:space="preserve">
-    <value>grpClickType</value>
+  <data name="&gt;&gt;txtHotkey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
     <value>296, 56</value>
+  </data>
+  <data name="&gt;&gt;grpClickType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="rdbClickSingleLeft.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -327,8 +318,11 @@
   <data name="numRandomX.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="numFixedY.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="rdbClickDoubleMiddle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 19</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
   </data>
   <data name="notifyIcon1.Text" xml:space="preserve">
     <value>KeyBird</value>
@@ -336,11 +330,8 @@
   <data name="grpControls.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="rdbClickSingleMiddle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 50</value>
-  </data>
-  <data name="numDelayRangeMax.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 54</value>
+  <data name="rdbDelayFixed.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="numDelayFixed.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -363,6 +354,9 @@
   <data name="&gt;&gt;label7.Parent" xml:space="preserve">
     <value>grpLocation</value>
   </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 15</value>
+  </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -380,6 +374,9 @@
   </data>
   <data name="&gt;&gt;numCount.Parent" xml:space="preserve">
     <value>grpCount</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>grpLocation</value>
   </data>
   <data name="&gt;&gt;numRandomX.Parent" xml:space="preserve">
     <value>grpLocation</value>
@@ -402,8 +399,8 @@
   <data name="&gt;&gt;rdbLocationMouse.Parent" xml:space="preserve">
     <value>grpLocation</value>
   </data>
-  <data name="rdbCount.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 26</value>
   </data>
   <data name="&gt;&gt;numRandomHeight.Name" xml:space="preserve">
     <value>numRandomHeight</value>
@@ -420,17 +417,14 @@
   <data name="numFixedX.Location" type="System.Drawing.Point, System.Drawing">
     <value>60, 105</value>
   </data>
-  <data name="grpCount.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label9.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
   <data name="grpLocation.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 22</value>
-  </data>
-  <data name="grpLocation.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -444,8 +438,8 @@
   <data name="&gt;&gt;rdbClickSingleMiddle.Parent" xml:space="preserve">
     <value>grpClickType</value>
   </data>
-  <data name="&gt;&gt;rdbLocationRandom.Name" xml:space="preserve">
-    <value>rdbLocationRandom</value>
+  <data name="grpLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;notifyIcon1.Name" xml:space="preserve">
     <value>notifyIcon1</value>
@@ -477,14 +471,365 @@
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>36, 108</value>
   </data>
-  <data name="numDelayFixed.Location" type="System.Drawing.Point, System.Drawing">
-    <value>128, 22</value>
+  <data name="&gt;&gt;numDelayFixed.Parent" xml:space="preserve">
+    <value>grpDelay</value>
   </data>
   <data name="grpLocation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>15, 15</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rdbClickSingleMiddle.Text" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="btnHotkeyRemove.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;rdbLocationRandom.Name" xml:space="preserve">
+    <value>rdbLocationRandom</value>
+  </data>
+  <data name="&gt;&gt;rdbClickDoubleLeft.Parent" xml:space="preserve">
+    <value>grpClickType</value>
+  </data>
+  <data name="&gt;&gt;numRandomY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdbDelayRange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rdbLocationMouse.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 15</value>
+  </data>
+  <data name="rdbClickSingleRight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numRandomX.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;rdbUntilStopped.Name" xml:space="preserve">
+    <value>rdbUntilStopped</value>
+  </data>
+  <data name="&gt;&gt;rdbClickSingleMiddle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip_NotifyIcon.Name" xml:space="preserve">
+    <value>contextMenuStrip_NotifyIcon</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="rdbUntilStopped.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="showToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 24</value>
+  </data>
+  <data name="&gt;&gt;btnToggle.Parent" xml:space="preserve">
+    <value>grpControls</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 198</value>
+  </data>
+  <data name="grpMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="numDelayFixed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 22</value>
+  </data>
+  <data name="&gt;&gt;rdbClickDoubleRight.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpControls.Parent" xml:space="preserve">
+    <value>grpMain</value>
+  </data>
+  <data name="rdbDelayFixed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 19</value>
+  </data>
+  <data name="&gt;&gt;rdbClickDoubleMiddle.Name" xml:space="preserve">
+    <value>rdbClickDoubleMiddle</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;grpLocation.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnSelect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 258</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>grpCount</value>
+  </data>
+  <data name="&gt;&gt;grpDelay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rdbClickSingleMiddle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;rdbDelayFixed.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;rdbDelayFixed.Name" xml:space="preserve">
+    <value>rdbDelayFixed</value>
+  </data>
+  <data name="&gt;&gt;btnHotkeyRemove.Name" xml:space="preserve">
+    <value>btnHotkeyRemove</value>
+  </data>
+  <data name="&gt;&gt;rdbLocationFixed.Name" xml:space="preserve">
+    <value>rdbLocationFixed</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 15</value>
+  </data>
+  <data name="rdbUntilStopped.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="grpDelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>521, 86</value>
+  </data>
+  <data name="numRandomX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 164</value>
+  </data>
+  <data name="rdbClickSingleRight.Text" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 25</value>
+  </data>
+  <data name="rdbClickSingleLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;grpControls.Name" xml:space="preserve">
+    <value>grpControls</value>
+  </data>
+  <data name="rdbLocationRandomArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 136</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdbClickSingleLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 22</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;numFixedX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnHotkeyRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rdbLocationRandom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;rdbClickSingleLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpDelay.Name" xml:space="preserve">
+    <value>grpDelay</value>
+  </data>
+  <data name="numDelayRangeMin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="rdbClickDoubleRight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;quitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHotkey.Name" xml:space="preserve">
+    <value>txtHotkey</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="numRandomWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>grpDelay</value>
+  </data>
+  <data name="rdbLocationFixed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtHotkey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 25</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>clicks</value>
+  </data>
+  <data name="&gt;&gt;numDelayFixed.Name" xml:space="preserve">
+    <value>numDelayFixed</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 15</value>
+  </data>
+  <data name="grpControls.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 22</value>
+  </data>
+  <data name="numFixedX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 25</value>
+  </data>
+  <data name="&gt;&gt;rdbLocationRandom.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="btnToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 55</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="rdbClickDoubleLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;rdbLocationRandomArea.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdbUntilStopped.Text" xml:space="preserve">
+    <value>Until stopped</value>
+  </data>
+  <data name="&gt;&gt;numFixedX.Parent" xml:space="preserve">
+    <value>grpLocation</value>
+  </data>
+  <data name="btnToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>grpControls</value>
+  </data>
+  <data name="&gt;&gt;rdbLocationRandomArea.Parent" xml:space="preserve">
+    <value>grpLocation</value>
+  </data>
+  <data name="grpCount.Text" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="&gt;&gt;grpClickType.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;numCount.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;grpLocation.Name" xml:space="preserve">
+    <value>grpLocation</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 15</value>
+  </data>
+  <data name="numCount.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rdbLocationRandomArea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="statusStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 0, 19, 0</value>
+  </data>
+  <data name="numRandomWidth.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;notifyIcon1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 166</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="grpClickType.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;btnToggle.Name" xml:space="preserve">
+    <value>btnToggle</value>
+  </data>
+  <data name="&gt;&gt;rdbClickDoubleMiddle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdbUntilStopped.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rdbDelayFixed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdbClickDoubleMiddle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;rdbClickSingleRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numRandomHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="rdbClickSingleMiddle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 50</value>
+  </data>
+  <data name="grpMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 359</value>
+  </data>
+  <data name="grpControls.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rdbClickDoubleLeft.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rdbLocationRandom.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rdbDelayRange.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="rdbDelayRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 54</value>
+  </data>
+  <data name="&gt;&gt;rdbLocationFixed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rdbClickDoubleMiddle.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3252,377 +3597,17 @@
         AAA=
 </value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="rdbClickSingleMiddle.Text" xml:space="preserve">
-    <value>Middle</value>
-  </data>
-  <data name="btnHotkeyRemove.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="grpControls.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;rdbClickSingleRight.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;numRandomY.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rdbDelayRange.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 15</value>
-  </data>
-  <data name="rdbClickSingleRight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numRandomX.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>296, 25</value>
-  </data>
-  <data name="showToolStripMenuItem.Text" xml:space="preserve">
-    <value>Show</value>
-  </data>
-  <data name="&gt;&gt;rdbClickSingleMiddle.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;contextMenuStrip_NotifyIcon.Name" xml:space="preserve">
-    <value>contextMenuStrip_NotifyIcon</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="grpMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="showToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 24</value>
-  </data>
-  <data name="&gt;&gt;btnToggle.Parent" xml:space="preserve">
-    <value>grpControls</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>228, 198</value>
-  </data>
-  <data name="grpMain.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;quitToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rdbClickDoubleRight.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;grpControls.Parent" xml:space="preserve">
-    <value>grpMain</value>
-  </data>
-  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Quit</value>
-  </data>
-  <data name="&gt;&gt;rdbClickDoubleMiddle.Name" xml:space="preserve">
-    <value>rdbClickDoubleMiddle</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Y</value>
-  </data>
-  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;grpLocation.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnSelect.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="grpDelay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>471, 258</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>grpCount</value>
-  </data>
-  <data name="&gt;&gt;grpDelay.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 26</value>
-  </data>
-  <data name="rdbClickSingleMiddle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="rdbLocationFixed.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;rdbDelayFixed.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;rdbDelayFixed.Name" xml:space="preserve">
-    <value>rdbDelayFixed</value>
-  </data>
-  <data name="&gt;&gt;btnHotkeyRemove.Name" xml:space="preserve">
-    <value>btnHotkeyRemove</value>
-  </data>
-  <data name="&gt;&gt;rdbLocationFixed.Name" xml:space="preserve">
-    <value>rdbLocationFixed</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 15</value>
-  </data>
-  <data name="rdbUntilStopped.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="grpDelay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>521, 86</value>
-  </data>
-  <data name="numRandomX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>60, 164</value>
-  </data>
-  <data name="rdbClickSingleRight.Text" xml:space="preserve">
-    <value>Right</value>
-  </data>
-  <data name="rdbClickSingleLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;grpControls.Name" xml:space="preserve">
-    <value>grpControls</value>
-  </data>
-  <data name="rdbLocationRandomArea.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 136</value>
-  </data>
-  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="rdbClickSingleLeft.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 22</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
-  <data name="&gt;&gt;numFixedX.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grpLocation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnHotkeyRemove.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="rdbLocationRandom.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;rdbClickSingleLeft.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grpDelay.Name" xml:space="preserve">
-    <value>grpDelay</value>
-  </data>
-  <data name="numDelayRangeMin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="rdbClickDoubleRight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;txtHotkey.Name" xml:space="preserve">
-    <value>txtHotkey</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="&gt;&gt;numDelayFixed.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tslStatus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>385, 20</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>grpDelay</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtHotkey.Size" type="System.Drawing.Size, System.Drawing">
-    <value>393, 25</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>clicks</value>
-  </data>
-  <data name="&gt;&gt;numDelayFixed.Name" xml:space="preserve">
-    <value>numDelayFixed</value>
-  </data>
-  <data name="rdbClickSingleMiddle.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;rdbDelayRange.Parent" xml:space="preserve">
-    <value>grpDelay</value>
-  </data>
-  <data name="grpControls.Location" type="System.Drawing.Point, System.Drawing">
-    <value>471, 22</value>
-  </data>
-  <data name="numFixedX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 25</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>grpLocation</value>
-  </data>
-  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="btnToggle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>413, 55</value>
-  </data>
-  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
-    <value>statusStrip1</value>
-  </data>
-  <data name="rdbClickDoubleLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;rdbLocationRandomArea.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;numRandomX.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="rdbUntilStopped.Text" xml:space="preserve">
-    <value>Until stopped</value>
-  </data>
-  <data name="&gt;&gt;numFixedX.Parent" xml:space="preserve">
-    <value>grpLocation</value>
-  </data>
-  <data name="btnToggle.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
-    <value>grpControls</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="&gt;&gt;rdbLocationRandomArea.Parent" xml:space="preserve">
-    <value>grpLocation</value>
-  </data>
-  <data name="grpCount.Text" xml:space="preserve">
-    <value>Count</value>
-  </data>
-  <data name="&gt;&gt;grpClickType.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;numCount.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;grpLocation.Name" xml:space="preserve">
-    <value>grpLocation</value>
-  </data>
-  <data name="numCount.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;rdbLocationRandomArea.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="statusStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1, 0, 19, 0</value>
-  </data>
-  <data name="numRandomWidth.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;notifyIcon1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 15</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 166</value>
-  </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="grpClickType.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;btnToggle.Name" xml:space="preserve">
-    <value>btnToggle</value>
-  </data>
-  <data name="&gt;&gt;rdbClickDoubleMiddle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rdbUntilStopped.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 390</value>
-  </data>
-  <data name="rdbDelayFixed.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 15</value>
-  </data>
-  <data name="numRandomHeight.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="grpMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1000, 359</value>
-  </data>
-  <data name="&gt;&gt;txtHotkey.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="rdbLocationRandom.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;rdbDelayRange.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="rdbDelayRange.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 54</value>
-  </data>
-  <data name="&gt;&gt;rdbLocationFixed.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;rdbClickDoubleMiddle.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="numRandomHeight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>287, 195</value>
-  </data>
   <data name="&gt;&gt;numCount.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="rdbUntilStopped.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="rdbClickSingleMiddle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 19</value>
   </data>
   <data name="rdbCount.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 51</value>
   </data>
   <data name="&gt;&gt;label8.Name" xml:space="preserve">
     <value>label8</value>
-  </data>
-  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
   </data>
   <data name="rdbDelayRange.Text" xml:space="preserve">
     <value>Delay range</value>
@@ -3633,23 +3618,20 @@
   <data name="&gt;&gt;rdbLocationRandom.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>grpLocation</value>
+  </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="&gt;&gt;grpMain.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;rdbUntilStopped.Name" xml:space="preserve">
-    <value>rdbUntilStopped</value>
-  </data>
-  <data name="numRandomWidth.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="&gt;&gt;numDelayRangeMin.Parent" xml:space="preserve">
+    <value>grpDelay</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
-  </data>
-  <data name="numFixedY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
   </data>
   <data name="rdbLocationMouse.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 22</value>
@@ -3666,8 +3648,11 @@
   <data name="&gt;&gt;rdbLocationMouse.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;numFixedX.Name" xml:space="preserve">
-    <value>numFixedX</value>
+  <data name="&gt;&gt;rdbDelayRange.Parent" xml:space="preserve">
+    <value>grpDelay</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 56</value>
   </data>
   <data name="numDelayFixed.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 25</value>
@@ -3681,23 +3666,17 @@
   <data name="rdbCount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="&gt;&gt;numDelayFixed.Parent" xml:space="preserve">
-    <value>grpDelay</value>
-  </data>
   <data name="&gt;&gt;numRandomWidth.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="rdbLocationMouse.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="&gt;&gt;showToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="grpDelay.Text" xml:space="preserve">
     <value>Delay</value>
   </data>
-  <data name="&gt;&gt;rdbLocationRandom.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="rdbClickSingleMiddle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 19</value>
+  <data name="&gt;&gt;contextMenuStrip_NotifyIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -3726,8 +3705,8 @@
   <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
-  <data name="&gt;&gt;showToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;rdbClickDoubleRight.Parent" xml:space="preserve">
     <value>grpClickType</value>
@@ -3741,6 +3720,9 @@
   <data name="&gt;&gt;numDelayRangeMax.Parent" xml:space="preserve">
     <value>grpDelay</value>
   </data>
+  <data name="grpMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>307, 54</value>
   </data>
@@ -3753,20 +3735,17 @@
   <data name="&gt;&gt;numFixedY.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1032, 25</value>
-  </data>
   <data name="rdbLocationRandomArea.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="rdbClickDoubleMiddle.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>grpLocation</value>
+  </data>
   <data name="rdbClickDoubleLeft.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="rdbDelayFixed.Text" xml:space="preserve">
     <value>Fixed delay</value>
@@ -3792,14 +3771,14 @@
   <data name="grpClickType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>grpLocation</value>
+  <data name="label5.Text" xml:space="preserve">
+    <value>X</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Y</value>
   </data>
-  <data name="&gt;&gt;rdbClickSingleRight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
   <data name="rdbLocationRandomArea.Text" xml:space="preserve">
     <value>Random area</value>
@@ -3813,13 +3792,10 @@
   <data name="rdbDelayRange.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="rdbDelayFixed.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;grpControls.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="rdbClickDoubleMiddle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="numRandomY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
@@ -3840,8 +3816,8 @@
   <data name="numRandomY.Location" type="System.Drawing.Point, System.Drawing">
     <value>287, 164</value>
   </data>
-  <data name="&gt;&gt;grpClickType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;label9.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3858,8 +3834,8 @@
   <data name="rdbLocationRandomArea.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="&gt;&gt;numDelayFixed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="grpControls.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -3870,14 +3846,17 @@
   <data name="&gt;&gt;numFixedX.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
+  <data name="rdbClickSingleRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 19</value>
+  </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>15, 15</value>
   </data>
-  <data name="&gt;&gt;rdbCount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;numFixedX.Name" xml:space="preserve">
+    <value>numFixedX</value>
   </data>
-  <data name="btnSelect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 29</value>
+  <data name="&gt;&gt;tslStatus.Name" xml:space="preserve">
+    <value>tslStatus</value>
   </data>
   <data name="rdbClickSingleLeft.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 19</value>
@@ -3888,8 +3867,8 @@
   <data name="&gt;&gt;rdbClickSingleMiddle.Name" xml:space="preserve">
     <value>rdbClickSingleMiddle</value>
   </data>
-  <data name="rdbClickDoubleLeft.Location" type="System.Drawing.Point, System.Drawing">
-    <value>133, 22</value>
+  <data name="&gt;&gt;grpMain.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="rdbClickDoubleRight.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3902,9 +3881,6 @@
   </data>
   <data name="&gt;&gt;numRandomY.Parent" xml:space="preserve">
     <value>grpLocation</value>
-  </data>
-  <data name="numRandomY.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 25</value>
   </data>
   <data name="&gt;&gt;numRandomHeight.Parent" xml:space="preserve">
     <value>grpLocation</value>
@@ -3936,6 +3912,9 @@
   <data name="&gt;&gt;txtHotkey.Parent" xml:space="preserve">
     <value>grpControls</value>
   </data>
+  <data name="&gt;&gt;rdbCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="grpLocation.Size" type="System.Drawing.Size, System.Drawing">
     <value>455, 228</value>
   </data>
@@ -3954,6 +3933,9 @@
   <data name="btnSelect.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
+  <data name="numRandomHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 195</value>
+  </data>
   <data name="&gt;&gt;numRandomX.Name" xml:space="preserve">
     <value>numRandomX</value>
   </data>
@@ -3969,17 +3951,14 @@
   <data name="&gt;&gt;btnHotkeyRemove.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnSelect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
   <data name="grpDelay.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="grpClickType.Text" xml:space="preserve">
-    <value>Click type</value>
+  <data name="numFixedY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="rdbLocationMouse.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -4014,8 +3993,8 @@
   <data name="rdbClickDoubleRight.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 19</value>
   </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 15</value>
+  <data name="&gt;&gt;numFixedY.Parent" xml:space="preserve">
+    <value>grpLocation</value>
   </data>
   <data name="&gt;&gt;rdbClickSingleLeft.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -4077,8 +4056,8 @@
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>487, 56</value>
+  <data name="&gt;&gt;grpControls.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;rdbCount.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -4098,8 +4077,8 @@
   <data name="&gt;&gt;grpCount.Parent" xml:space="preserve">
     <value>grpMain</value>
   </data>
-  <data name="&gt;&gt;numDelayRangeMin.Parent" xml:space="preserve">
-    <value>grpDelay</value>
+  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="notifyIcon1.Visible" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4110,6 +4089,9 @@
   <data name="label9.Text" xml:space="preserve">
     <value>ms</value>
   </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1032, 415</value>
+  </data>
   <data name="rdbClickDoubleMiddle.Location" type="System.Drawing.Point, System.Drawing">
     <value>133, 50</value>
   </data>
@@ -4119,8 +4101,8 @@
   <data name="&gt;&gt;rdbLocationMouse.Name" xml:space="preserve">
     <value>rdbLocationMouse</value>
   </data>
-  <data name="rdbDelayFixed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 19</value>
+  <data name="btnSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 29</value>
   </data>
   <data name="&gt;&gt;rdbClickDoubleRight.Name" xml:space="preserve">
     <value>rdbClickDoubleRight</value>
@@ -4131,8 +4113,17 @@
   <data name="grpClickType.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
+  <data name="&gt;&gt;rdbClickSingleRight.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="txtHotkey.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>KeyBird</value>
+  </data>
+  <data name="grpCount.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;label5.Name" xml:space="preserve">
     <value>label5</value>
@@ -4143,8 +4134,8 @@
   <data name="&gt;&gt;label8.Parent" xml:space="preserve">
     <value>grpDelay</value>
   </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quit</value>
   </data>
   <data name="rdbClickSingleRight.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -4158,8 +4149,8 @@
   <data name="&gt;&gt;label9.Parent" xml:space="preserve">
     <value>grpDelay</value>
   </data>
-  <data name="&gt;&gt;grpControls.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;numRandomX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="notifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -6927,8 +6918,8 @@
         AAA=
 </value>
   </data>
-  <data name="&gt;&gt;rdbClickDoubleLeft.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="btnSelect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>263, 166</value>
@@ -6942,9 +6933,6 @@
   <data name="rdbClickDoubleLeft.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 19</value>
   </data>
-  <data name="&gt;&gt;tslStatus.Name" xml:space="preserve">
-    <value>tslStatus</value>
-  </data>
   <data name="rdbLocationRandomArea.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 19</value>
   </data>
@@ -6954,14 +6942,23 @@
   <data name="&gt;&gt;numDelayRangeMax.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;numFixedY.Parent" xml:space="preserve">
-    <value>grpLocation</value>
+  <data name="numRandomY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 25</value>
+  </data>
+  <data name="rdbCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 24</value>
   </data>
+  <data name="grpClickType.Text" xml:space="preserve">
+    <value>Click type</value>
+  </data>
   <data name="rdbLocationMouse.Text" xml:space="preserve">
     <value>Mouse location</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Hotkey</value>
   </data>
   <data name="btnHotkeyRemove.Text" xml:space="preserve">
     <value>Clear Hotkey</value>
@@ -7005,6 +7002,9 @@
   <data name="rdbClickSingleLeft.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="rdbClickDoubleLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 22</value>
+  </data>
   <data name="&gt;&gt;numDelayRangeMin.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -7017,8 +7017,8 @@
   <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+  <data name="numFixedY.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;rdbClickSingleRight.Name" xml:space="preserve">
     <value>rdbClickSingleRight</value>

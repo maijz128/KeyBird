@@ -154,6 +154,9 @@
   <data name="rdbClickSingleLeft.Text" xml:space="preserve">
     <value>鼠标左键</value>
   </data>
+  <data name="grpClickType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 129</value>
+  </data>
   <data name="grpClickType.Text" xml:space="preserve">
     <value>按键类型</value>
   </data>
@@ -163,11 +166,23 @@
   <data name="label11.Text" xml:space="preserve">
     <value>快捷键</value>
   </data>
+  <data name="btnToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 54</value>
+  </data>
   <data name="btnToggle.Text" xml:space="preserve">
     <value>开始</value>
   </data>
+  <data name="btnHotkeyRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 19</value>
+  </data>
   <data name="btnHotkeyRemove.Text" xml:space="preserve">
     <value>重置快捷键</value>
+  </data>
+  <data name="txtHotkey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 25</value>
+  </data>
+  <data name="grpControls.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 91</value>
   </data>
   <data name="grpControls.Text" xml:space="preserve">
     <value>控制</value>
@@ -193,6 +208,27 @@
   <data name="grpCount.Text" xml:space="preserve">
     <value>次数</value>
   </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>373, 56</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 26</value>
+  </data>
+  <data name="numDelayFixed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 25</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 55</value>
+  </data>
+  <data name="numDelayRangeMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 53</value>
+  </data>
+  <data name="numDelayRangeMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 25</value>
+  </data>
+  <data name="numDelayRangeMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 25</value>
+  </data>
   <data name="rdbDelayRange.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 19</value>
   </data>
@@ -204,6 +240,9 @@
   </data>
   <data name="rdbDelayFixed.Text" xml:space="preserve">
     <value>固定延迟</value>
+  </data>
+  <data name="grpDelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 86</value>
   </data>
   <data name="grpDelay.Text" xml:space="preserve">
     <value>延迟</value>
@@ -238,8 +277,17 @@
   <data name="grpLocation.Text" xml:space="preserve">
     <value>位置</value>
   </data>
+  <data name="grpMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>883, 359</value>
+  </data>
   <data name="grpMain.Text" xml:space="preserve">
     <value>设置</value>
+  </data>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 379</value>
+  </data>
+  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>910, 25</value>
   </data>
   <data name="showToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 24</value>
@@ -3021,6 +3069,9 @@
         ////AAAA/////////////////////////////////wAAAP////////////////////////////////8A
         AAA=
 </value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>910, 404</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
